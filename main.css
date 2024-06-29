@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: minmax(100px, auto) minmax(700px, 4fr)  minmax(200px, auto)   ;
+    overflow-x: hidden;
+}
+header,main,footer{
+    width: 100%;
+}
+header{
+    background-color: rgb(243, 214, 252);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    gap: 100px;
+    color: rgb(157, 61, 247);
+    cursor: pointer;
+}
+nav a{
+    padding: 10px;
+   background-color: rgb(243, 214, 252);
+    border-radius: 20px;
+}
+nav a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: rgb(71, 105, 255);
+}
+.header_icon {
+    display: flex;
+    gap: 20px;
+}
+.header_icon img{
+    cursor: pointer;
+}
+.header_icon img:hover{
+    cursor: pointer;
+    scale: 1.5;
+}
